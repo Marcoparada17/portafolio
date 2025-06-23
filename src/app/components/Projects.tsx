@@ -21,7 +21,7 @@ type Project = {
   description: string
   imageUrl: string
   githubUrl: string
-  liveUrl: string
+  liveUrl: string | undefined;
   techStack: string[]
 }
 

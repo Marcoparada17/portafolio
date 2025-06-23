@@ -8,7 +8,10 @@ import PortfolioChatbot from '@/app/components/PortfolioChatbot'
 
 const prisma = new PrismaClient()
 export default async function Home() {
-  const projects = await prisma.project.findMany()
+  const projects = (await prisma.project.findMany()).map((p) => ({
+    ...p,
+    liveUrl: p.liveUrl ?? undefined,
+  }));
 
   return (
       <>
