@@ -20,7 +20,7 @@ const Hero = () => {
         </h2>
 
         <p className="mt-4 text-sm sm:text-base text-gray-300">
-          I'm a software developer passionate about backend systems, APIs, and scalable web applications. I specialize in Node.js, Express, PostgreSQL, and TypeScript, and I have experience integrating OpenAI APIs, real-time systems with WebSockets, and tools like Docker and Google Cloud.
+          I&apos;m a software developer passionate about backend systems, APIs, and scalable web applications. I specialize in Node.js, Express, PostgreSQL, and TypeScript, and I have experience integrating OpenAI APIs, real-time systems with WebSockets, and tools like Docker and Google Cloud.
           My goal is to build clean, reliable, and scalable systems that bring value to both users and businesses.
         </p>
 

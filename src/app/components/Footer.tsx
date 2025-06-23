@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import { FaGithub, FaEnvelope } from 'react-icons/fa'
 
 const skills = [
   'Next.js',
@@ -36,9 +36,9 @@ const Footer = () => {
 
         {/* Columna derecha: Contacto o redes */}
         <div>
-          <h3 className="text-2xl font-bold mb-4">Contacto</h3>
+          <h3 className="text-2xl font-bold mb-4">Contact</h3>
           <p className="text-gray-300 mb-4">
-            Let's talk! I'm available for opportunities, collaborations, or just to chat about code.
+            Let&apos;s talk! I&apos;m available for opportunities, collaborations, or just to chat about code.
           </p>
           <div className="flex gap-6 text-2xl">
             <a href="mailto:marcoparada17@gmail.com.com" className="hover:text-blue-400">
@@ -57,7 +57,7 @@ const Footer = () => {
 
       <div className="mt-12 text-center text-gray-400 text-sm">
         © {new Date().getFullYear()} Marco Parada. 
-All rights reserved.
+All rights reserved
       </div>
     </footer>
   )
