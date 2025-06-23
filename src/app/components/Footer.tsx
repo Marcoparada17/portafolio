@@ -45,7 +45,7 @@ const Footer = () => {
               <FaEnvelope />
             </a>
             <a
-              href="https://github.com/tuusuario"
+              href="https://github.com/Marcoparada17"
               target="_blank"
               className="hover:text-blue-400"
             >

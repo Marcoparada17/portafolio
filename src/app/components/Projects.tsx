@@ -80,13 +80,16 @@ const Projects: React.FC<Props> = ({ projects }) => {
                 >
                   GitHub
                 </a>
-                <a
-                  href={project.liveUrl}
-                  className="text-green-400 hover:underline"
-                  target="_blank"
-                >
-                  Ver online
-                </a>
+            {project.liveUrl && project.liveUrl !== "" && (
+            <a
+               href={project.liveUrl as string}
+                className="text-green-400 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+                  >
+                 Online
+                   </a>
+                    )}
               </div>
             </div>
 

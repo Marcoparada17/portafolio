@@ -25,7 +25,7 @@ const Hero = () => {
         </p>
 
         <a
-          href="malito:marcoparada17@gmail.com"
+          href="mailto:marcoparada17@gmail.com"
           className="mt-6 inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-full transition"
         >
           Let’s Work Together
